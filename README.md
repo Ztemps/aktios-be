@@ -5,9 +5,9 @@ Correr `node server.js`. Navegar a `http://localhost:3000/`. Verás un mensaje q
 ## Comentarios
 
 Instalé (cors: ^2.8.4) para evitar los típicos errores de "Access-Control-Allow-Origin" por ejemplo.
-Como es contenido estático declaré ambos resources que me enviasteís y hice un express.static con el path de los dos ficheros.
+Como es contenido estático declaré ambos resources que me enviasteis y hice un express.static con el path de los dos ficheros.
 
-Las rutas de datos resultantes són:
+Las rutas de datos resultantes son:
 
 http://localhost:3000/data
 http://localhost:3000/population
