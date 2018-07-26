@@ -8,13 +8,11 @@ app.use(cors({
   credentials: false
 }));
 
-
 var dataRoute = express.static(__dirname + '/resources/datasource.json');
 var personRoute = express.static(__dirname + '/resources/info-population.json');
 
 app.use('/data', dataRoute);
 app.use('/population', personRoute);
-// Cors
 
 app.get('/', (req, res) => {
   res.status(200).send("Paint&Paint API-REST")
